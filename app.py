@@ -8,4 +8,4 @@ st.subheader("This is Machine Learning model that predicts revenue according to 
 temp = st.number_input('Enter the Temperature of the area')
 
 if st.button("Predict Revenue"):
-    st.subheader("The predicted revenue is: ₹" + str(int(model.predict([[temp]]))))
+    st.subheader("The predicted revenue is: $" + str(int(model.predict([[temp]]))))
